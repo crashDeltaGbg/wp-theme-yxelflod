@@ -2,7 +2,7 @@
 
 get_header();
 
-$date_time = get_field('next-event-date-time');
+$date_time = get_field('next_event_date_time');
 
 ?>
 
