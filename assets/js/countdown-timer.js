@@ -2,7 +2,7 @@
 
 const countdownTimer = document.getElementById("countdown-timer");
 
-const dateTime = countdownTimer.dataset.eventDate;
+const dateTime = countdownTimer.dataset.event;
 
 // countdownTimer.innerHTML = dateTime;
 
@@ -25,7 +25,7 @@ const countdown = setInterval(() => {
 
   if (difference < 0) {
     clearInterval(countdown);
-    countdownTimer.innerHTML = "&#9917;";
+    countdownTimer.innerHTML = "&#x1f973;";
   }
 }, 1000);
 
