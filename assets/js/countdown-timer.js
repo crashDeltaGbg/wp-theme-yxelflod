@@ -4,6 +4,8 @@ const countdownTimer = document.getElementById("countdown-timer");
 
 const dateTime = countdownTimer.dataset.event;
 
+console.log(dateTime);
+
 // countdownTimer.innerHTML = dateTime;
 
 const countdownDate = new Date(dateTime).getTime();
