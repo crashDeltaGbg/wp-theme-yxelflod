@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 *,
 *::after,
@@ -27,7 +27,7 @@ body {
 }
 
 div#countdown-timer {
-  font: 48px "Rubik Microbe";
+  font: 48px "Permanent Marker";
   height: max-content;
   width: max-content;
 }
