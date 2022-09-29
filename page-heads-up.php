@@ -8,7 +8,7 @@ print_r($date_time);
 
 ?>
 
-<div data-event="<?php echo $date_time;  ?>" id="countdown-timer"></div>
+<div data-event="<?php // echo $date_time;  ?>" id="countdown-timer"></div>
 
 <?php
 
