@@ -8,7 +8,7 @@ const dateTime = countdownTimer.dataset.event;
 
 // countdownTimer.innerHTML = dateTime;
 
-const countdownDate = new Date(dateTime).getTime();
+let countdownDate = new Date(dateTime).getTime();
 
 console.log(countdownDate);
 
