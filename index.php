@@ -1,5 +1,5 @@
 <?php
 
-header("Location: https://yxelflod.se");
+// header("Location: https://yxelflod.se");
 
-exit;
+// exit;
