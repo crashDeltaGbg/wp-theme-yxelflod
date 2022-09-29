@@ -1,5 +1,5 @@
 <?php
 
-header("Location: http://localhost:3000/");
+header("Location: https://yxelflod.se");
 
 exit;
