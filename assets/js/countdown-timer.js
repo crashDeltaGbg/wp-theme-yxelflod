@@ -4,11 +4,13 @@ const countdownTimer = document.getElementById("countdown-timer");
 
 const dateTime = countdownTimer.dataset.event;
 
-console.log('date & time: ', dateTime);
+// console.log('date & time: ', dateTime);
 
 // countdownTimer.innerHTML = dateTime;
 
 const countdownDate = new Date(dateTime).getTime();
+
+console.log(countdownDate);
 
 const countdown = setInterval(() => {
   const now = new Date().getTime();
