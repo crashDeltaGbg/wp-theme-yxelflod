@@ -37,6 +37,7 @@ footer {
 }
 
 p#copyright {
+  margin: auto;
   text-align: center;
 }
 
