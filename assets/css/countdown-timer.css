@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
 
 *,
 *::after,
@@ -27,7 +26,7 @@ body {
 }
 
 div#countdown-timer {
-  font: 48px "Bungee Hairline";
+  font: 3rem;
   height: max-content;
   width: max-content;
 }
