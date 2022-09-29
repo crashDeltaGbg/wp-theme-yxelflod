@@ -1,8 +1,14 @@
 *,
 *::after,
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 *::before {
   box-sizing: border-box;
   border-collapse: collapse;
+}
+
+html {
+  font: 16px 'Special Elite', cursive;
 }
 
 html,
@@ -19,5 +25,13 @@ body {
 }
 
 div#countdown-timer {
-  
+  font-size: 4rem;
+  height: max-content;
+  width: max-content;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  text-align: center;
 }
