@@ -1,14 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
 *,
 *::after,
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-
 *::before {
   box-sizing: border-box;
   border-collapse: collapse;
 }
 
 html {
-  font: 16px 'Special Elite', cursive;
+  font: 16px "Special Elite", cursive;
 }
 
 html,
