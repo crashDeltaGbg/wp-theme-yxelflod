@@ -2,9 +2,9 @@
 
 get_header();
 
-$date_time = get_field('next_event_date_time');
+// $date_time = get_field('next_event_date_time');
 
-print_r($date_time);
+// print_r($date_time);
 
 ?>
 
