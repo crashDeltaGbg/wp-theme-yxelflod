@@ -21,6 +21,7 @@ body {
   background-color: black;
   color: antiquewhite;
   display: grid;
+  margin: 0;
   place-items: center;
 }
 
