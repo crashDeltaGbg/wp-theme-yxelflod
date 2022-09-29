@@ -1,6 +1,6 @@
 <?php
 
-get_header();
+// get_header();
 
 // $date_time = get_field('next_event_date_time');
 
@@ -13,6 +13,6 @@ get_header();
 
 <?php
 
-get_footer();
+// get_footer();
 
 ?>
