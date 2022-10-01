@@ -46,6 +46,7 @@ if (canceledMessage) {
         canceledMessage.innerHTML += canceledMesageText.charAt(i);
         i++;
       } else {
+        canceledMessage.style.textDecoration = "underline";
         clearInterval(typingSpeed);
       }
     };
