@@ -36,7 +36,7 @@ const countdown = setInterval(() => {
   }
 }, 1000);
 
-if (canceledMessageState) {
+if (canceledMessageState != 0) {
   
   const typeOutMessage = () =>{
     let i = 0;
