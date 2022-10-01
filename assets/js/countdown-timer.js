@@ -51,7 +51,7 @@ if (canceledMessage) {
       }
     };
 
-    setInterval(typeOutMessage, 50);
+    setInterval(typeOutMessage, 300);
   }
 }
 
