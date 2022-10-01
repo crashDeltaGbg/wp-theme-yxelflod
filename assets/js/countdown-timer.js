@@ -39,8 +39,9 @@ if (canceledMessage) {
   console.log(canceledMessageState);
 
   if (canceledMessageState != 0) {
+    let i = 0;
+
     const typeOutMessage = () => {
-      let i = 0;
       if (i < canceledMesageText.length) {
         canceledMessage.innerHTML += canceledMesageText.charAt(i);
         i++;
