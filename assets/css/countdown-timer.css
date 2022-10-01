@@ -32,6 +32,7 @@ header {
 
 div.social-links {
   margin-left: auto;
+  width: max-content;
 }
 
 div.social-links a {
