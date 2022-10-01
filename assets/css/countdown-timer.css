@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"); /* 'Special Elite' */
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap'); /* 'Frijole' */
 
 *,
 *::after,
@@ -26,13 +27,14 @@ body {
 }
 
 div#countdown-timer {
-  font: 3rem;
+  font-size: 3rem;
   height: max-content;
   width: max-content;
 }
 
 div#canceled {
   color: tomato;
+  font: 3rem Frijole;
   text-transform: uppercase;
 }
 
