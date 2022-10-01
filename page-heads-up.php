@@ -13,7 +13,7 @@ if (!$canceled) :
 
 <?php else : ?>
 
-  <div data-canceled="<?php echo $canceled; ?>" id="canceled" onload="eventCanceled()"><?php echo $canceled; ?></div>
+  <div data-canceled="<?php echo $canceled; ?>" id="canceled"><?php // echo $canceled; ?></div>
 
 <?php
 
