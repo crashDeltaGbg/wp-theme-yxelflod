@@ -30,6 +30,12 @@ header {
   width: 100%;
 }
 
+div.social-links a {
+  color: antiquewhite;
+  margin-right: auto;
+  text-decoration: none;
+}
+
 main {
   display: grid;
   flex-grow: 1;
