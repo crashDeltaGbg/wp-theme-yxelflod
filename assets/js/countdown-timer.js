@@ -36,7 +36,7 @@ if (canceledMessage) {
   const canceledMessageState = canceledMessage.dataset.canceled;
   const canceledMesageText = "canceled";
 
-  console.log(canceledMessageState);
+  // console.log(canceledMessageState);
 
   if (canceledMessageState != 0) {
     let i = 0;
@@ -46,12 +46,11 @@ if (canceledMessage) {
         canceledMessage.innerHTML += canceledMesageText.charAt(i);
         i++;
       } else {
-        canceledMessage.innerHTML = "";
-        i = 0;
+        clearInterval(typingSpeed);
       }
     };
 
-    setInterval(typeOutMessage, 300);
+    const typingSpeed = setInterval(typeOutMessage, 300);
   }
 }
 
