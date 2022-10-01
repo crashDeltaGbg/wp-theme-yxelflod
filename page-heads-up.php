@@ -13,7 +13,7 @@ if (!$canceled) :
 
 <?php else : ?>
 
-  <div id="canceled">canceled</div>
+  <div data-canceled="<?php echo $canceled; ?>" id="canceled"><?php // print_r($canceled); ?></div>
 
 <?php
 

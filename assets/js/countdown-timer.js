@@ -1,6 +1,9 @@
 // console.log("hi from countdown timer");
 
 const countdownTimer = document.getElementById("countdown-timer");
+const canceledMessage = document.getElementById("canceled");
+const canceledMessageState = canceledMessage.dataset.canceled;
+const canceledMesageText = "canceled";
 
 const dateTime = countdownTimer.dataset.event;
 
@@ -32,5 +35,21 @@ const countdown = setInterval(() => {
     countdownTimer.innerHTML = "&#x1f973;";
   }
 }, 1000);
+
+if (canceledMessageState) {
+  
+  const typeOutMessage = () =>{
+    let i = 0;
+    if (i < canceledMesageText.length) {
+      canceledMessage.innerHTML += canceledMesageText.charAt(i);
+      i++
+    } else {
+      canceledMessage.innerHTML = '';
+      i = 0;
+    }
+  };
+
+  setInterval(typeOutMessage, 50);
+}
 
 /* -:[crashdelta]:- */
