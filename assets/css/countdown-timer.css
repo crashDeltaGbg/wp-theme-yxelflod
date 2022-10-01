@@ -30,9 +30,12 @@ header {
   width: 100%;
 }
 
+div.social-links {
+  margin-left: auto;
+}
+
 div.social-links a {
   color: antiquewhite;
-  margin-left: auto;
   text-decoration: none;
 }
 
