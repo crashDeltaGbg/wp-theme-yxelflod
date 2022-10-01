@@ -11,8 +11,8 @@ if (!$canceled) :
 
 <header>
   <div class="social-links">
-    <span id="twitter">&#xf099;</span>
-    <span id="instagram">&#xf16d;</span>
+    <a href="" id="twitter" title="Heads-up Events on Twitter" target="_blank">&#xf099;</a>
+    <a href="" id="instagram" title="Heads-up Events on Instagram"target="_blank">&#xf16d;</a>
   </div>
 </header>
 
