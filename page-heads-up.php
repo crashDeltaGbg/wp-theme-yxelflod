@@ -18,21 +18,29 @@ $canceled = get_field('next_event_cancel');
   </div>
 </header>
 
+<main>
+
+  <?php
+
+  if (!$canceled) :
+
+  ?>
+
+    <div data-event="<?php echo $date_time;  ?>" id="countdown-timer"></div>
+
+  <?php else : ?>
+
+    <div data-canceled="<?php echo $canceled; ?>" id="canceled"></div>
+
+  <?php
+
+  endif;
+
+  ?>
+
+</main>
+
 <?php
-
-if (!$canceled) :
-
-?>
-
-  <div data-event="<?php echo $date_time;  ?>" id="countdown-timer"></div>
-
-<?php else : ?>
-
-  <div data-canceled="<?php echo $canceled; ?>" id="canceled"></div>
-
-<?php
-
-endif;
 
 get_footer();
 

@@ -21,8 +21,18 @@ body {
 body {
   background-color: darkslategray;
   color: antiquewhite;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   margin: 0;
+}
+
+header {
+  width: 100%;
+}
+
+main {
+  display: grid;
+  flex-grow: 1;
   place-items: center;
 }
 
@@ -39,8 +49,8 @@ div#canceled {
 }
 
 footer {
-  bottom: 0;
-  position: fixed;
+  /* bottom: 0;
+  position: fixed; */
   width: 100%;
 }
 
