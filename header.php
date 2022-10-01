@@ -6,6 +6,7 @@
   if (get_field('html_head_meta_content')) the_field('html_head_meta_content');
   if (is_page('heads-up')) : ?>
     <meta name="twitter:card" content="summary" />
+    <meta name="twitter:titel" content="Next Event" />
     <meta name="twitter: site" content="@heads_up_events" />
     <meta name="twitter: creator" content="@heads_up_events" />
     <meta name="twitter: image" content="<?php the_post_thumbnail_url('large'); ?>">
