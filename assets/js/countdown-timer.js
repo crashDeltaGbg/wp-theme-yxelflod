@@ -1,15 +1,12 @@
 // console.log("hi from countdown timer");
 
 const countdownTimer = document.getElementById("countdown-timer");
-const canceledMessage = document.getElementById("canceled");
 
 const dateTime = countdownTimer.dataset.event;
 
 // console.log('date & time: ', dateTime);
 
 // countdownTimer.innerHTML = dateTime;
-
-console.log(canceledMessage);
 
 let countdownDate = new Date(dateTime).getTime();
 
@@ -36,25 +33,29 @@ const countdown = setInterval(() => {
   }
 }, 1000);
 
-if (canceledMessage) {
-  const canceledMessageState = canceledMessage.dataset.canceled;
-  const canceledMesageText = "canceled";
+function eventCanceled() {
+  const canceledMessage = document.getElementById("canceled");
 
-  console.log(canceledMessageState);
+  if (canceledMessage) {
+    const canceledMessageState = canceledMessage.dataset.canceled;
+    const canceledMesageText = "canceled";
 
-  if (canceledMessageState != 0) {
-    const typeOutMessage = () => {
-      let i = 0;
-      if (i < canceledMesageText.length) {
-        canceledMessage.innerHTML += canceledMesageText.charAt(i);
-        i++;
-      } else {
-        canceledMessage.innerHTML = "";
-        i = 0;
-      }
-    };
+    console.log(canceledMessageState);
 
-    setInterval(typeOutMessage, 50);
+    if (canceledMessageState != 0) {
+      const typeOutMessage = () => {
+        let i = 0;
+        if (i < canceledMesageText.length) {
+          canceledMessage.innerHTML += canceledMesageText.charAt(i);
+          i++;
+        } else {
+          canceledMessage.innerHTML = "";
+          i = 0;
+        }
+      };
+
+      setInterval(typeOutMessage, 50);
+    }
   }
 }
 
