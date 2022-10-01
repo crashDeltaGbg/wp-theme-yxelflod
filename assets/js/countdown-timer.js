@@ -11,6 +11,8 @@ const dateTime = countdownTimer.dataset.event;
 
 // countdownTimer.innerHTML = dateTime;
 
+console.log(canceledMessageState);
+
 let countdownDate = new Date(dateTime).getTime();
 
 console.log(countdownDate);
