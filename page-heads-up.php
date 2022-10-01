@@ -10,10 +10,10 @@ $canceled = get_field('next_event_cancel');
 <header>
   <div class="social-links">
     <a href="" id="twitter" title="Heads-up Events on Twitter" target="_blank">
-      <i class="fa-brands">&#xf099;</i>
+      <i class="fa-brands fa-twitter"></i>
     </a>
     <a href="" id="instagram" title="Heads-up Events on Instagram" target="_blank">
-      <i class="fa-brands">&#xf16d;</i>
+      <i class="fa-brands fa-instagram"></i>
     </a>
   </div>
 </header>
