@@ -13,4 +13,4 @@ if (function_exists('acf_add_options_page')) {
   acf_add_options_page();
 }
 
-add_theme_support('post_thumbnails');
+add_theme_support('post thumbnails');
