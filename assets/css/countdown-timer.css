@@ -37,6 +37,7 @@ div.social-links {
 
 div.social-links a {
   color: antiquewhite;
+  margin: 0.5rem 1rem;
   text-decoration: none;
 }
 
