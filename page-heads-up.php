@@ -1,6 +1,6 @@
 <?php
 
-get_header();
+get_header('heads-up');
 
 $date_time = get_field('next_event_date_time');
 $canceled = get_field('next_event_cancel');
@@ -42,6 +42,6 @@ $canceled = get_field('next_event_cancel');
 
 <?php
 
-get_footer();
+get_footer('heads-up');
 
 ?>
